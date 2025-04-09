@@ -29,6 +29,4 @@ public class Venue {
 
     @Column(name = "total_capacity")
     private Long totalCapacity;
-
-
 }
