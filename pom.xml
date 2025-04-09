@@ -6,17 +6,18 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.shahvir</groupId>
 	<artifactId>EventBookingApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Event Booking App</name>
-	<description>Event booking microservce</description>
+	<description>Event booking microservice</description>
 	<url/>
 	<modules>
 		<module>BookingService</module>
 		<module>InventoryService</module>
+		<module>OrderService</module>
 	</modules>
 	<packaging>pom</packaging>
 	<licenses>
